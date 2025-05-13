@@ -27,10 +27,6 @@ class QuoteCardSkeleton extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       color: cardBackgroundColor, // Use theme-dependent background color
       child: Container(
-        // decoration: BoxDecoration(
-        //   // color: Colors.grey[200], // Removed hardcoded color
-        //   borderRadius: BorderRadius.circular(16),
-        // ),
         padding: const EdgeInsets.all(12),
         child: Shimmer.fromColors(
           baseColor: baseColor, // Use theme-dependent base color
